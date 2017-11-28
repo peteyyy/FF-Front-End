@@ -1,0 +1,96 @@
+p {
+    font: normal 13px/20px Arial;
+}
+
+.btn1 {
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #2980B9;
+    color: white;
+    font: bold 13px Arial;
+    width: 120px;
+    border: none;
+}
+
+.btn1:hover {
+    background-color: #3498DB;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #E74C3C;
+    border: none;
+    color: white;
+    font: bold 13px Arial;
+    width: 120px;
+}
+
+.btn2:hover {
+    background-color: #f35c4c;
+}
+
+.simple-link {
+    color: #2980B9;
+    font: normal 13px/20px Arial;
+    text-align: left;
+}
+
+.simple-link:hover {
+    color: #E74C3C;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.navbar-default {
+    background-color: #2C3E50;
+    border-radius: 0px;
+    border: none;
+}
+
+.navbar-default a {
+    color: #ECF0F1;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #ECF0F1;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #ECF0F1;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav li a:visited {
+    color: #ECF0F1;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer .container {
+    padding: 10px 0px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer .container span {
+    margin: 0px 10px;
+}
+
+.footer .container .simple-link {
+    display: inline-block;
+}
