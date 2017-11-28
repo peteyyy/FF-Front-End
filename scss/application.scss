@@ -1,0 +1,113 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+// Fonts
+p {
+  font: $paragraph
+}
+
+// Buttons
+.btn1 {
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: $med-blue;
+  color: white;
+  font: bold 13px Arial;
+  width: 120px;
+  border: none;
+}
+.btn1:hover {
+  background-color: $light-blue;
+  cursor: pointer;
+}
+.btn2 {
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: $red;
+  border: none;
+  color: white;
+  font: bold 13px Arial;
+  width: 120px;
+}
+.btn2:hover{
+  background-color: $light-red;
+}
+.simple-link {
+  color: $med-blue;
+  font: $paragraph;
+  text-align: left;
+}
+.simple-link:hover {
+  color: $red;
+}
+
+// Link Animations
+a:hover{
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+  color: inherit;
+}
+
+// Header
+.navbar-default {
+  background-color: $dark-blue;
+  border-radius: 0px;
+  border: none;
+  a {
+    color: $off-white;
+  }
+  .navbar-nav {
+    li {
+      a { color: $off-white; }
+      a:hover {
+        color: $off-white;
+        text-decoration: underline;
+      }
+      a:visited { color: $off-white; }
+    }
+  }
+}
+
+
+// Footer
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  .container {
+    padding: 10px 0px;
+    border-top: 1px solid #e7e7e7;
+    span {
+      margin: 0px 10px;
+    }
+    .simple-link {
+      display: inline-block;
+    }
+  }
+}
+
+
