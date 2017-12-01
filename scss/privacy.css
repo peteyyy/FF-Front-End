@@ -1,0 +1,33 @@
+/*h1=bold Lato*/
+/*h2=normal Lato*/
+/*p= normal arial*/
+h1 {
+	font-weight: bold;
+	font-family: Lato;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	line-height: 3rem;
+}
+h2 {
+	font-weight: normal;
+	font-family: Lato;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: #7c7c7c;
+}
+p {
+	font-weight: normal;
+	font-family: arial;
+	font-size: 22px;
+	line-height: 1.75;
+}
+li {
+	font-weight: normal;
+	font-family: arial;
+	font-size: 130%;
+	line-height: 1.75;
+	list-style: none;
+}
+li:before { 
+	content: "- " };
+}
